@@ -1,25 +1,25 @@
 {
-  "name": "aem-site-template-standard",
-  "version": "2.1.1",
-  "description": "Standard AEM Site Template used as a starter template for general purpose websites",
+  "name": "aem-site-template-demo",
+  "version": "0.1.0",
+  "description": "Standard AEM Site Template used as a starter template for Walmart",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
     "build": "aem-site-template-builder",
     "stub": "aem-site-template-builder stub",
-    "deploy": "curl -u admin:admin -F file=@aem-site-template-standard-latest.zip http://localhost:4502/bin/wcm/site-template/import"
+    "deploy": "curl -u admin:admin -F file=@aem-site-template-demo-latest.zip http://localhost:4502/bin/wcm/site-template/import"
   },
   "devDependencies": {
     "@adobe/aem-site-template-builder": "2.3.1"
   },
   "siteTemplate": {
     "title": "Standard AEM Site Template",
-    "createdBy": "Adobe",
+    "createdBy": "Lamont Crook, lamont@adobe.com",
     "useCases": [
       "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing"
     ],
     "docsUrl": "",
     "showcaseUrl": "",
-    "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-standard",
+    "sourceRepositoryUrl": "https://github.com/adobe/aem-site-template-demo",
     "openItem": "{Path}/en/home"
   }
 }

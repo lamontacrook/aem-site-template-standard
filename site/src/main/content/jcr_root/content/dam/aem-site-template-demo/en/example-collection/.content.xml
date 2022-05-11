@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1bcf6b72-2154-4870-abcb-445d0ef2e8ad">
+    <jcr:content
+        cq:name="example-collection"
+        cq:parentPath="/content/dam/aem-site-template-demo/en"
+        jcr:lastModified="{Date}2022-05-11T06:28:21.653-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Example Collection"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-05-11T06:28:21.653-06:00">
+        <data
+            cq:model="/conf/aem-site-template-demo/settings/dam/cfm/models/collection"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                collectionHeros="/content/dam/aem-site-template-demo/en/hero-example"
+                collectionHeros_x0040_LastModified="{Date}2022-05-11T06:28:21.578-06:00"
+                collectionName="Example Collection"
+                collectionName_x0040_LastModified="{Date}2022-05-11T06:28:21.577-06:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

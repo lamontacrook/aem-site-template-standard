@@ -1,6 +1,6 @@
 {
-    "name": "aem-site-template-standard-theme",
-    "version": "0.0.1",
+    "name": "aem-site-template-demo-theme",
+    "version": "0.0.2",
     "description": "Standard AEM site theme",
     "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
     "scripts": {

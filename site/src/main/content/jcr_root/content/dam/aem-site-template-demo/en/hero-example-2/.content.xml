@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ece93ab6-80b5-465c-a014-97b8351bb36a">
+    <jcr:content
+        cq:name="hero-example-2"
+        cq:parentPath="/content/dam/aem-site-template-demo/en"
+        jcr:lastModified="{Date}2022-05-11T12:15:12.806-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Hero Example 2"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-05-11T12:15:12.806-06:00">
+        <data
+            cq:model="/conf/aem-site-template-demo/settings/dam/cfm/models/hero"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                heroBody="&lt;ul>&#xa;&lt;li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;ul>&#xa;&lt;li>Aliquam tincidunt mauris eu risus.&lt;/li>&#xa;&lt;li>Vestibulum auctor dapibus neque.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>Nunc dignissim risus id metus.&lt;ul>&#xa;&lt;li>Cras ornare tristique elit.&lt;/li>&#xa;&lt;li>Vivamus vestibulum ntulla nec ante.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>Praesent placerat risus quis eros.&lt;ul>&#xa;&lt;li>Fusce pellentesque suscipit nibh.&lt;/li>&#xa;&lt;li>Integer vitae libero ac risus egestas placerat.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>Vestibulum commodo felis quis tortor.&lt;ul>&#xa;&lt;li>Ut aliquam sollicitudin leo.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>Cras iaculis ultricies nulla.&lt;ul>&#xa;&lt;li>Donec quis dui at dolor tempor interdum.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;"
+                heroBody_x0040_ContentType="text/html"
+                heroBody_x0040_LastModified="{Date}2022-05-11T12:15:12.745-06:00"
+                heroHeading="Lorem ipsum dolor sit amet"
+                heroHeading_x0040_LastModified="{Date}2022-05-11T12:15:12.744-06:00"
+                heroImage="/content/dam/aem-site-template-demo/Asset-322.png"
+                heroImage_x0040_LastModified="{Date}2022-05-11T12:15:12.746-06:00"
+                heroLayout="2-column"
+                heroLayout_x0040_LastModified="{Date}2022-05-11T12:15:12.746-06:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
